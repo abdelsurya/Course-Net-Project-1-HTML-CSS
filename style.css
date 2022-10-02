@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.menu{
+    margin-top: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 30px 0px 30px 0px;
+}
+
+/* .menu-flex .logo{
+    float: left;
+}
+
+.menu-flex .list-menu{
+    float: left;
+}
+
+.menu-flex .search{
+    float: left;
+} */
+
+.menu-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.logo{
+    font-weight: 900;
+}
+
+.content{
+    padding: 0px 100px;
+}
+
+.container-header{
+    text-align: center;
+    padding-top: 80px;
+}
